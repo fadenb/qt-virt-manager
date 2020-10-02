@@ -61,7 +61,7 @@ public:
 #endif
 
     void setViewOnly(bool viewOnly);
-    void showDotCursor(DotCursorState state);
+    void showLocalCursor(LocalCursorState state);
     void enableScaling(bool scale);
     
     virtual void updateConfiguration();
